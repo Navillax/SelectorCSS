@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego-Qr</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="img/icono.png" alt="Logo image" height="120px" id="logo"
+        /></a>
+      </div>
+      <div class="cabecera">
+        <h1>Patrimonio nacional</h1>
+        <h3>Recursos de códigos QR</h3>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <h1>
+      Pulsa el cuadro y cotillea una opción <br />
+      &#128562;
+    </h1>
+    <div class="main">
+      <div class="navigation">
+        <span style="--i: 0; --x: -1; --y: 0">
+          <ion-icon name="logo-1"><a href="index.html">&#127968;</a></ion-icon>
+        </span>
+        <span style="--i: 1; --x: 1; --y: 0">
+          <ion-icon name="logo-2"><a href="html.html">&#128240;</a></ion-icon>
+        </span>
+        <span style="--i: 2; --x: 0; --y: -1">
+          <ion-icon name="logo-3"
+            ><a href="Fuente_del_Reloj.pdf">&#128209;</a></ion-icon
+          >
+        </span>
+        <span style="--i: 3; --x: 0; --y: 1">
+          <ion-icon name="logo-4"
+            ><a href="img/reloj.JPG">&#128247;</a></ion-icon
+          >
+        </span>
+        <span style="--i: 4; --x: -1; --y: 1">
+          <ion-icon name="logo-5"
+            ><a href="./img/videoreloj.mp4">&#127909; </a></ion-icon
+          >
+        </span>
+        <span style="--i: 5; --x: -1; --y: -1">
+          <ion-icon name="logo-6"
+            ><a href="obelisco.mp3">&#127911;</a></ion-icon
+          >
+        </span>
+        <span style="--i: 6; --x: 1; --y: -1">
+          <ion-icon name="logo-7"><a href="mapa.html">&#128204;</a></ion-icon>
+        </span>
+        <span style="--i: 7; --x: 1; --y: 1">
+          <ion-icon name="logo-8"
+            ><a
+              href="https://blogislaaranjuez.blogspot.com/2023/10/ruta-para-el-jardin-de-la-isla.html"
+              >&#128694;</a
+            ></ion-icon
+          >
+        </span>
+      </div>
+      <div class="close">
+        <ion-icon name="close-outline active">&#10060;</ion-icon>
+      </div>
+    </div>
+    <!-- Inicio documento -->
+    <br />
+    <h1 class="titulo">Aquí se encuentra el punto de interes:</h1>
+    <br />
+    <div id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1527.3207321468765!2d-3.610026187302943!3d40.03878367682957!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4205bb2c5187c1%3A0x4a5892548ccdfc9f!2sFuente%20del%20Reloj!5e0!3m2!1ses!2ses!4v1700208601929!5m2!1ses!2ses"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <br />
+
+    <!-- Inicio footer -->
+    <footer>
+      <div class="logo-footer">
+        <a href="#logo"
+          ><img src="img/icono.png" alt="logo-inicio" height="50px"
+        /></a>
+      </div>
+      <p class="p-footer">
+        &copy; 2023, Tándem Aranjuez, Patrimonio Nacional. Diseño por Andrés
+        Navarro.
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
